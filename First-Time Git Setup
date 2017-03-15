@@ -61,3 +61,9 @@ You can also check what Git thinks a specific key’s value is by typing git con
 $ git config user.name
 John Doe
 prev | next
+
+
+
+
+## Set proxy
+$ git config --global http.proxy http://proxy.example.com:8080
