@@ -7,14 +7,27 @@ $ git clone https://github.com/DZGK/Hello-World
 2. リモートリポジトリを追加
 usage: git remote add <shortname> <url>
 
-$ git remote add HW https://github.com/DZGK/Hello-World
+$ git remote add hw https://github.com/DZGK/Hello-World
 
 
-3. リモートリポジトリへ push
+
+
+##
+1. リモートリポジトリを追加
+git add *
+
+
+3. commit
+
+
+
+
+
+4. リモートリポジトリへ push
 git push
 
 
 ##
 $ git remote -v
-HW      https://github.com/DZGK/Hello-World (fetch)
-HW      https://github.com/DZGK/Hello-World (push)
+hw      https://github.com/DZGK/Hello-World (fetch)
+hw      https://github.com/DZGK/Hello-World (push)
