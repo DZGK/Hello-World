@@ -1,33 +1,29 @@
 # GitHub の使い方
-
-
-1. リポジトリからデータを取得
-$ git clone https://github.com/DZGK/Hello-World
-
-2. リモートリポジトリを追加
+## リモートリポジトリの登録
+1. リモートリポジトリを追加
 usage: git remote add <shortname> <url>
 
 $ git remote add hw https://github.com/DZGK/Hello-World
 
 
-
-
-##
-1. リモートリポジトリを追加
-git add *
-
-
-3. commit
-
-
-
-
-
-4. リモートリポジトリへ push
-git push
-
-
-##
+2. リモートリポジトリの確認
 $ git remote -v
 hw      https://github.com/DZGK/Hello-World (fetch)
 hw      https://github.com/DZGK/Hello-World (push)
+
+
+## リモートリポジトリからデータの取得
+1. リポジトリからデータを取得
+$ git clone https://github.com/DZGK/Hello-World
+
+
+
+## 変更反映
+1. リモートリポジトリを追加
+git add *
+
+2.
+git commit
+
+3.
+git push hw master
